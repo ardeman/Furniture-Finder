@@ -1,6 +1,9 @@
 # Furniture Finder
+
 Source code is located at [**/doc**](https://github.com/ardeman/Furniture-Finder/tree/master/docs) folder
+
 Exercise: This will create a single page application to search and filter furniture products.
+
 This use any Vue JavaScript Framework.
 
 ## This app will consist of these features
