@@ -1,0 +1,57 @@
+b, strong {
+    font-weight: bold;
+}
+
+li.disabled{
+    display: none;
+}
+
+#filterInput{
+    background-color: rgb(16,108,200);
+    margin-bottom: -20px;
+    padding: 0 10px;
+}
+
+input[type="text"]:not(.browser-default){
+    border-bottom: 1px solid white;
+}
+
+.select-wrapper input.select-dropdown{
+    border-bottom: 1px solid white;
+    color: white;
+}
+
+.select-wrapper .caret{
+    fill: white;
+}
+
+label > span {
+    color: black;
+}
+
+#filterOutput{
+    padding: 10px;
+}
+
+.product-price{
+    float: right;
+    font-size: 15px;
+    color: rgb(255,152,0);
+}
+
+.card .card-content p{
+    margin-bottom: 8px;
+}
+
+.product-style{
+    color: rgb(16,108,200);
+}
+
+.product-dlvtime{
+    text-align: right;
+    color: rgb(16,108,200);
+}
+
+.card{
+    border-radius: 7px;
+}
