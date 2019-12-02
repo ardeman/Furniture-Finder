@@ -1,6 +1,6 @@
 # Furniture Finder
 
-Source code is located at [**/doc**](https://github.com/ardeman/Furniture-Finder/tree/master/docs) folder
+Source code is located at [**/docs**](https://github.com/ardeman/Furniture-Finder/tree/master/docs) folder
 
 Exercise: This will create a single page application to search and filter furniture products.
 
