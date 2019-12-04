@@ -24,13 +24,13 @@
         <div id="app">
             <div id="filterInput">
                 <div class="row">
-                    <div class="input-field col s6">
+                    <div class="input-field col s12 m6">
                         <input class="white-text" type="text" id="searchFurnitureInput" v-model="searchName">
                         <label class="white-text"><b>Search Furniture</b></label>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="input-field col s6">
+                    <div class="input-field col s12 m6">
                         <select id="furnitureStyleSelect" multiple="" v-model="selectedStyle">
                             <option value="" disabled selected>All</option>
                             <option v-for="style in furnitureStyles">{{ style }}</option>
@@ -38,7 +38,7 @@
                         <label class="white-text">Furniture Style</label>
                     </div>
 
-                    <div class="input-field col s6">
+                    <div class="input-field col s12 m6">
                         <select id="deliveryTimeSelect" multiple="" v-model="selectedDelivery">
                             <option value="" disabled selected>All</option>
                             <option value=7>1 week</option>
@@ -57,7 +57,7 @@
 
             <div id="filterOutput" v-else>
                 <div class="row">
-                    <div class="col s6" v-for="product in filteredProducts">
+                    <div class="col s12 m6" v-for="product in filteredProducts">
                         <div class="card">
                             <div class="card-content">
                                 <div class="card-title">
