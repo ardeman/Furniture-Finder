@@ -1,7 +1,7 @@
 
 # Furniture Finder
 
-Source code is located at [**/index.html, /main.js, /style.css**]
+Source code is [**index.html main.js style.css**]
 
 Exercise: This will create a single page application to search and filter furniture products.
 
