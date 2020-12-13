@@ -55,3 +55,7 @@ label > span {
 .card{
     border-radius: 7px;
 }
+
+.full-width{
+    max-width: 1440px;
+}
